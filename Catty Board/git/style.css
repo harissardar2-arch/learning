@@ -1,0 +1,298 @@
+body{
+margin: 0;
+}
+
+.container{
+display: flex;
+}
+
+.side-bar{
+background-color: rgb(246 246 246);
+display: flex;
+flex-direction: column;
+width: 50px;
+}
+
+.right-bar{
+flex: 1;
+}
+
+.board{
+background-color: rgb(78, 78, 78, 1);
+width: 94%;
+height: 40%;
+padding: 30px 40px;
+display: flex;
+gap: 40px;
+}
+
+.catty-picture{
+background-color: yellow;
+}
+
+.text-1{
+padding: 10px 16px;
+font-size: 31px;
+font-family:Roboto, Arial, sans-serif;
+font-weight: 600;
+letter-spacing: 2px;
+}
+
+.year{
+color: red;
+font-size: 20px;
+font-family:Roboto, Arial, sans-serif;
+letter-spacing: 1px;
+font-weight: 800;
+}
+
+.text-2{
+font-size: 15px;
+font-family:Roboto, Arial, sans-serif;
+letter-spacing: 2px;
+font-weight: 600;
+}
+
+.year,
+.text-2,
+.text-3,
+.text-1{
+text-align: center;
+}
+
+.text-3{
+font-size: 15px;
+font-family:Roboto, Arial, sans-serif;
+letter-spacing: 2px;
+font-weight: 900;
+padding: 20px 0px;
+}
+
+.text-4{
+color: lightgrey;
+font-family: 'Times New Roman', Times, serif;
+line-height: 35px;
+font-size: 20px;
+}
+
+.text-5{
+color: lightgrey;
+font-size: 10px;
+font-family: Roboto, Arial;
+}
+
+.text-6{
+color: lightgrey;
+font-size: 12px;
+line-height: 20px;
+font-family: Roboto, Arial;
+}
+
+.three-buttons{
+display: flex;
+color: white;
+position: relative;
+top: 42%;
+right: 10px;
+}
+
+.play-all img,
+.add-to img,
+.more img{
+width: 15px;
+height: 15px;
+}
+
+.play-all,
+.add-to,
+.more {
+font-size: 12px;
+padding: 22px 10px;
+}
+
+.box{
+display: flex;
+flex-direction: column;
+padding: 5px 10px;
+}
+
+.first-box{
+display: flex;
+justify-content: space-between;
+padding: 13px 22px;
+}
+
+.box span{
+flex: 0 0 200px;
+}
+
+.time,
+.text{
+font-family: Arial,sans-serif;
+font-size: 15px;
+font-weight: 200;
+}
+
+.text-2{
+font-family: Arial,sans-serif;
+font-size: 15px;
+font-weight: 200;
+}
+
+.cattycloud{
+font-family: sans-serif;
+font-size: 12px;
+border-radius: 2px;
+border: 2px solid grey;
+color: #787171;
+flex: 0 0 auto !important;
+}
+
+.second-box{
+background-color:rgb(246 246 246);
+padding: 13px 22px;
+border-radius: 6px;
+display: flex;
+justify-content: space-between;
+}
+
+.footer{
+background-color: #4646d0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.left-side{
+display: flex;
+align-items: center;
+}
+
+.right.side{
+margin-right: 100px;
+}
+
+.catty-box{
+background-color: yellow;
+margin: 10px 8px;
+}
+
+.c-b{
+font-family: cursive;
+text-align: center;
+font-weight: 500;
+margin: 10px 0px;    
+}
+
+.saal{
+font-size: 12px;
+margin: 5px 40px;
+color: red;
+font-weight: bold;
+}
+
+.s-c-b{
+font-size: 10px;
+margin: 2px 25px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.n-w{
+font-size: 7px;
+font-weight: bold;
+margin: 10px 30px;
+}
+
+.c-t{
+color: white;
+font-size: 12px;
+font-family: Arial, sans-serif;
+line-height: 30px;
+}
+
+.six-icon{
+display: flex;
+gap: 10px;
+padding: 0px 80px;
+}
+
+.side-bar img{
+width: 15px;
+padding: 20px 18px;
+}
+
+.six-icon img{
+width: 15px;
+height: 20px;
+padding: 0px 10px;
+}
+
+@media (max-width: 320px){
+.side-bar,
+.catty-box,
+.word,
+.cattycloud,
+.text-5,
+.text-6{
+display: none;
+}
+ 
+.footer{
+display: flex;
+height: 100px;
+justify-content: space-between;
+padding: 0px 47px;
+width: 100%;
+margin: 10px 0px;
+}
+
+.board{
+display: flex;
+flex-direction: column;
+height: auto;
+width: 100%;
+}
+
+.text-4{
+font-size: 14px;
+text-align: center;
+}
+
+.catty-picture{
+width: 70%;
+height: auto;
+margin: 0 auto;
+display: block;
+}
+
+.three-buttons{
+margin: 10px 13px;
+}
+
+.text-1{
+font-size: 24px;
+}
+
+.first-box,
+.second-box{
+padding: 10px 16px;
+}
+
+.six-icon{
+display: flex;
+gap: 10px;
+padding: 0px 5px;
+}
+
+.box{
+padding: 10px 0px;
+}
+
+.box span{
+flex: 0 0 130px;
+}
+
+.time{
+text-align: end;
+}
+}

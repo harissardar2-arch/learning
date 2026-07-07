@@ -1,0 +1,16 @@
+body{
+    background-color: lightgrey;
+}
+
+.card{
+background-color: white;
+width: 399px;
+padding: 12px;
+
+}
+
+.Three-pics{
+display: flex;
+gap: 7px;
+height: 18%;
+}

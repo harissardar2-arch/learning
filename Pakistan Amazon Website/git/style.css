@@ -1,0 +1,158 @@
+    body {
+    margin: 0;
+    }
+ 
+    header {
+    background-image:url("/images/header.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 89px;
+    }
+       
+    h1 {
+    margin-right: 15px;
+    font-size: 23px;
+    font-weight: bold;
+    color: rgba(255, 153, 0, 1);
+    }
+        
+    .main {
+    display: flex;
+    }
+
+    .sidebar {
+    width: 200px;
+    background-color: #40383a;
+    padding: 20px;
+    min-height: 100vh;        
+    } 
+
+    .side-menu {
+    height: 5%;
+    cursor: pointer;
+    }
+
+    .Categories {
+    color: aqua;
+    }
+
+    .paragraph { 
+    color: black;
+    font-weight: bold;
+    }
+    
+    .sidebar h3 {
+    margin-bottom: 10px;
+    }
+
+    .sidebar ul {
+    color: rgb(255, 255, 255);
+    padding: 0;
+    list-style: none;
+    }
+
+    .sidebar ul li {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+    font-weight: bold;          
+    } 
+
+    .Search-inside {
+    display: flex;
+    }
+
+    .sidebar-image {
+    height: 100px;
+    margin-top: 35px;
+    }
+
+    .Content {
+    flex: 1;
+    background-image: url("/images/Content.jpg");
+    justify-content: center;   
+    gap: 20px;      
+    align-items: flex-start; 
+    flex-wrap: wrap;
+    display: flex;
+    }
+    
+    .Content > div {
+    width: 21%;
+    }
+
+    .card {
+    background-color: #00f56d9e;
+    padding-left: 41px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 16px;
+    margin-bottom: 21px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    }
+
+    .card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: #83838396; 
+    }
+
+    .card button {
+    background-color: #605c5c;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    }
+     
+    .card button:hover {
+    background-color: #ff6003;
+    }
+
+    .Search {
+    justify-content: center;
+    width: 100%;            
+    display: flex;
+    }
+
+    .Search-inside input {        
+    width: 400px;
+    padding: 8px;
+    border: none;    
+    }
+
+    .search-icon {
+    height: 34px;
+    width: 45px;
+    border: none;
+    background-color: #FF9900;
+    cursor: pointer;
+    }
+
+    .icon {
+    height: 25px;
+    padding-top: 3px;
+    }
+
+    footer {
+    background-image:url("/images/footer.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #b5b09d;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 1px;
+    }

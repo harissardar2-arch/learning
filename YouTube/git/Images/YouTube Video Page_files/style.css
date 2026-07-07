@@ -1,0 +1,61 @@
+header{
+height: 57px;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.Start{
+display: flex;
+}
+
+.Menu-icon img{
+width: 24px;
+padding: 20px;
+}
+
+.YouTube-Logo img{
+width: 100px;
+padding: 18px 14px 18px 8px;
+}
+
+.Center{
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.search-bar{
+font-family: Roboto, Arial, sans-serif;
+padding: 12px 405px 11px 16px;
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+border: 1px solid #ccc;
+outline: none;
+font-size: 14px;
+border-right: 0;
+}
+
+.search-bar:focus{
+border: 1px solid rgb(92, 92, 219);
+}
+
+.End{
+display: flex;
+}
+
+.search-button{
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+border: 1px solid #ccc;
+background-color: #F8F8F8;
+padding: 0px 12px;
+}
+
+.Center img{
+width: 75%;    
+}
