@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(64, 75, 231);
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    background-color: white;  
+    border-radius: 10px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+
+.search-box{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 30px 20px 50px;
+}
+
+.search-bar{
+    border-radius: 5px;
+    border: 2px solid rgb(68, 114, 243);
+    padding: 12px 20px 10px;
+    font-size: 18px;
+    width: 300px;
+}
+
+.search-bar:focus{
+    outline: none;
+}
+
+.search-bar::placeholder{
+    color: black;
+}
+
+button{
+    border-radius: 5px;
+    background-color:rgb(68, 114, 243);
+    padding: 0 30px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+
+.message-box{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+
+.message p{
+    background-color: #b9d8ec;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 10px 6px;
+    font-size: 17px;
+    border-radius: 5px;
+    align-items: center;
+    font-family: sans-serif;
+    margin: 5px 0;
+}
+
+.message svg{
+   background-color: #29298f;
+   fill: white;
+   width: 18px;
+   height: 18px;
+   padding: 15px 15px;
+   border-radius: 5px;
+   cursor: pointer;
+}
