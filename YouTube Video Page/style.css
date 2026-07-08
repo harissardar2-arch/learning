@@ -1,0 +1,764 @@
+header{
+height: 57px;
+position: fixed;
+padding: 0 10px;
+top: 0;
+left: 0;
+right: 0;
+display: flex;
+align-items: center;
+background-color: white;
+justify-content: space-between;
+}
+
+.Start{
+display: flex;
+align-items: center;
+}
+
+.Menu-icon{
+padding: 7px 7px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+cursor: pointer;
+margin: 15px;
+}
+
+.Menu-icon img{
+width: 24px;
+height: auto;
+}
+
+.Menu-icon:hover{
+background-color: #dddddd;
+}
+
+.YouTube-Logo{
+position: relative;
+}
+
+.YouTube-Logo img{
+width: 100px;
+padding: 18px 14px 18px 8px;
+cursor: pointer;
+}
+
+.PK-text{
+position: absolute;
+top: 14px;
+right: 0px;
+font-size: 9px;
+font-family: Roboto, Arial, sans-serif;
+color: #0F0F0F;
+}
+
+.Center{
+flex: 1;
+display: flex;
+justify-content: center;
+gap: 15px;
+align-items: center;
+}
+
+.search-button img{
+width: 30px;
+}
+
+.voice-button img{
+width: 24px;
+}
+
+.search-box{
+display: flex;
+width: 100%;
+max-width: 600px;
+}
+
+.search-bar{
+font-family: Roboto, Arial, sans-serif;
+padding: 10px 16px;
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+border: 1px solid #ccc;
+border-right: none;
+outline: none;
+font-size: 14px;
+flex: 1;
+}
+
+.search-bar:focus{
+border: 1px solid rgb(92, 92, 219);
+border-right: none;
+}
+
+.search-button{
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+border: 1px solid #ccc;
+background-color: #F8F8F8;
+padding: 5px 15px;
+cursor:pointer;
+}
+
+.search-button:hover{
+background-color: #f0f0f0;
+}
+
+.voice-button{
+border-radius: 50%;
+padding: 7px 7px;
+background-color: #F8F8F8;
+border: 1px solid #ccc;
+cursor: pointer;
+}
+
+.voice-button:hover{
+background-color: #dddddd;
+}
+
+.End{
+display: flex;
+align-items: center;
+margin-top: 0;
+gap: 20px;
+}
+
+.Create-button{
+display: flex;
+align-items: center;
+padding: 5px 13px;
+border-radius: 20px;
+border: 1px solid #ccc;
+gap: 6px;
+cursor: pointer;
+}
+
+.Create-button img{
+width: 22px;
+height: 20px;
+}
+
+.Create-button span{
+font-size: 15px;
+font-family: Roboto, Arial, sans-serif;
+}
+
+.Create-button:hover{
+background-color: #dddddd;
+}
+
+.Notification-icon{
+display: flex;
+position: relative;
+align-items: center;
+padding: 6px;
+cursor: pointer;
+border-radius: 30px;
+}
+
+.Notification-count{
+position: absolute;
+top: 4px;
+right: 3px;
+background-color: #e1002d;
+border-radius: 10px;
+padding: 2px 6px;
+color: white;
+font-size: 12px;
+font-weight: bold;
+}
+
+.Notification-icon img{
+width: 30px;
+}
+
+.Notification-icon:hover{
+background-color: #dddddd;
+}
+
+.Profile-picture{
+margin-right: 35px;
+cursor: pointer;
+}
+
+.Profile-picture img{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+}
+
+.Main{
+display: flex;
+} 
+
+.left {
+flex: 1; /* 👈 remaining space le */
+}
+
+.Right {
+width: 470px; /* 👈 fixed sidebar */
+}
+
+.main-content{
+margin-top: 70px;  
+padding-left: 12px;
+}
+
+.video-section{
+background-color: black;
+height: auto;
+width: 100%;
+max-width: 860px;
+border-radius: 11px;
+}
+
+iframe{
+width: 100%;
+height: 465px;
+border-radius: 11px;
+}
+
+.title-box{
+font-size: 20px;
+font-family: Roboto, Arial, sans-serif;
+color: #0F0F0F;
+font-weight: bolder;
+margin: 12px;
+}
+
+.General-box{
+display: flex;
+}
+
+.Channel-picture{
+margin: -3px 14px;
+cursor: pointer;   
+}
+
+.Channel-picture img{
+width: 36px;
+height: 36px;
+border-radius: 70px;
+}
+
+.Channel-info{
+display: flex;
+flex-direction: column;
+}
+
+.name-row {
+display: flex;
+align-items: center;
+gap: 6px;
+}
+
+.Profile-Name{
+font-family: Roboto, Arial, sans-serif;
+font-weight: bold;
+font-size: 16px;
+margin: 0px -2px;
+cursor: pointer;
+white-space: nowrap;
+}
+
+.Sub{
+font-family: Roboto, Arial, sans-serif;
+font-weight: bold;
+font-size: 12px;
+color: #606060;
+margin: 3px -2px;
+}
+
+.Tick {
+width: 10px;
+height: 10px;  
+background-color: rgba(96, 96, 96, 1);
+border-radius: 10px;
+padding: 1px 1px;
+}
+
+.wrapper{
+display: flex;
+gap: 9px;
+margin: 0px 6%;
+}
+
+.Subscribe{
+font-family: Roboto, Arial, sans-serif;
+background-color: black;
+color: white;
+padding: 15px;
+border-radius: 20px;
+font-size: 15px;
+cursor: pointer;
+transition: 0.2s;
+margin: 0px 26px;
+align-items: center;
+display: flex;
+height: 5px;
+}
+
+.Subscribe:hover{
+background-color: #181818;
+}
+
+.like-box{
+display: flex;
+align-items: center;
+background-color: #f2f2f2;
+border-radius: 20px;
+width: 130px;
+height: 33px;
+}
+
+.like{
+display: flex;
+align-items: center;
+gap: 6px;
+cursor: pointer;
+padding: 5px 12px;
+
+}
+
+.views{
+font-size: 14px;
+margin: 0;
+}
+
+.Divider{
+width: 1px;
+height: 20px;
+background-color: #ccc;
+}
+
+.Dislike{
+cursor: pointer;
+padding: 3px 15px;
+}
+
+.like img,
+.Dislike img{
+width: 20px;
+}
+
+.like:hover{
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+background-color: #e5e5e5;
+}
+
+.Dislike:hover{
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+background-color: #e5e5e5;
+}
+
+.Share{
+display: flex;
+background-color: #f2f2f2;
+align-items: center;
+padding: 15px 15px;
+gap:5px;
+height: 0px;
+cursor: pointer;
+border-radius: 20px;
+}
+
+.Share:hover,
+.Ask:hover,
+.Save:hover,
+.Three-dots:hover
+{
+background-color: #e5e5e5;
+}
+
+.Share img,
+.Ask img,
+.Save img,
+.Three-dots img{
+width: 20px;
+}
+
+.Ask{
+ display: flex;
+background-color: #f2f2f2;
+align-items: center;
+padding: 15px 15px;
+gap:5px;
+height: 0px;
+cursor: pointer;
+border-radius: 20px;   
+}
+
+.Save{
+ display: flex;
+background-color: #f2f2f2;
+align-items: center;
+padding: 15px 15px;
+gap:5px;
+height: 0px;
+cursor: pointer;
+border-radius: 20px;   
+}
+
+.Three-dots{
+display: flex;
+background-color: #f2f2f2;
+align-items: center;
+padding: 15px 8px;
+gap:5px;
+height: 0px;
+cursor: pointer;
+border-radius: 20px;   
+}
+
+.Detail-box{
+background-color: #f7f7f7;
+padding: 6px 11px;
+border-radius: 10px;
+height: 95px;
+margin: 10px 10px;
+width: 96%;
+font-weight: 500;
+cursor: pointer;
+}
+
+.Detail-box:hover{
+background-color: #f2f2f2;    
+}
+
+.Views-year span,
+.Message-box span{
+font-family:Roboto, Arial, sans-serif;
+font-size: 14px;
+line-height: 20px;
+}
+
+.Link{
+display: flex;
+gap: 5px;
+padding: 15px 0px;
+cursor: pointer;
+}
+
+.Link span{
+font-family:Roboto, Arial, sans-serif;
+font-size: 14px;
+font-weight: 500;
+}
+
+.link-inside{
+color: #065FD4;
+font-size: 14px;
+font-family:Roboto, Arial, sans-serif;
+}
+
+.Row{
+display: flex;
+justify-content: space-between;
+width: 74%;
+margin: 25px 15px;
+}
+
+.Vertical-dots-icon img{
+width: 20px;
+cursor: pointer;
+}
+
+.MarquesBrownlee-store{
+font-size: 14px;
+font-family:Roboto, Arial, sans-serif;
+font-weight: 500;
+}
+
+.Main-Shop{
+display: flex;
+align-items: center;
+}
+
+.Shopping img{
+width: 90px;
+}
+
+.Power-bank{
+align-items: center;
+display: flex;
+}
+
+.Power-bank img{
+width: 90px;
+margin: 0px 15px;
+}
+
+.Three-pics{
+display: flex;
+flex-direction: column;
+height: 100px;
+margin: 0px 9px;
+}
+
+.Power-bank:hover{
+background-color: #f2f2f2;
+}
+
+.RPB{
+font-family:Roboto, Arial, sans-serif;
+font-size: 14px;
+padding: 5px 0px;
+}
+
+.LSA{
+font-family:Roboto, Arial, sans-serif;
+font-size: 14px;
+font-weight: 500;
+line-height: 15px;
+}
+
+.Ridge{
+font-family:Roboto, Arial, sans-serif;
+font-size: 12px;
+line-height: 25px;
+color:#606060;
+cursor: pointer;
+}
+
+.Ridge:hover{
+color:#065FD4;
+}
+
+.The-Ridge-icon{
+display: flex;
+align-items: center;
+}
+
+.The-Ridge-icon img{
+width: 12px;
+margin: 5px 5px;
+}
+
+.Shopping{
+display: flex;
+}
+
+.Total-Comments{
+display: flex;
+font-family:Roboto, Arial, sans-serif;
+align-items: center;
+margin: 25px 17px;
+}
+
+.Sorts-By{
+margin: 0px 30px;
+font-size: 20px;
+display: flex;
+align-items: flex-end;
+gap: 15px;
+}
+
+.Sorts-By img{
+width: 20px;
+}
+
+.Comments{
+display: flex;
+gap: 6px;
+font-weight: bold;
+font-size: 20px;
+}
+
+.Add-Comments{
+display: flex;
+align-items: center;
+gap: 10px;
+margin: 0px 13px;
+}
+
+.Add-Comments input{
+flex: 1;
+border: none;
+border-bottom: 1px solid #ccc; /* 👈 LINE */
+outline: none;
+padding: 2px 0;
+font-size: 14px;
+}
+
+.P-P{
+width: 25px;
+height: 25px;
+border-radius: 50px;
+}
+
+@media (max-width: 768px){
+.main-content{
+display: flex;
+flex-direction: column;
+}
+}
+
+.search-box{
+width: 100%;
+max-width: 600px;
+}
+
+.search-bar{
+flex: 1;
+width: 100%; /* fixed width hatao */
+}
+
+@media (max-width: 600px){
+.End{
+gap: 10px;
+}
+
+.Create-button span{
+display: none; /* mobile pe text hide */
+}
+}
+
+@media (max-width: 900px){
+.wrapper{
+flex-direction: column;
+}
+}
+
+img{
+max-width: 100%;
+height: auto;
+}
+
+.full-details-comment{
+display: flex;
+margin: 35px 13px;
+}
+
+.Image img{
+width: 40px;
+height: 40px;
+border-radius: 50px;
+}
+
+.Text-box{
+margin: 0px 10px;
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+.Word{
+font-size: 13px;
+font-family: Roboto, Arial, sans-serif;
+font-weight: 500;
+cursor: pointer;
+}
+
+.Word-2{
+font-size: 12px;
+font-family: Roboto, Arial, sans-serif;
+color: #6c6c6c;
+}
+
+.Word-2:hover{
+color: black;
+cursor: pointer;
+}
+
+.Word-3{
+font-size: 12px;
+font-family: Roboto, Arial, sans-serif;
+color: #6c6c6c;
+}
+
+.Icon{
+width: 15px;
+height: 15px;
+}
+
+.Icon:hover{
+background-color: #f7f7f7;
+cursor: pointer;
+border-radius: 15px;
+}
+
+.L-R{
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+.Replies{
+display: flex;
+margin: -18px 60px;
+gap: 8px;
+}
+
+.Replies img{
+width: 25px;
+height: 25px;
+}
+
+.side-bar{
+display: flex;
+flex-direction: column;
+align-items: flex-start; /* 👈 sab left align */
+padding: 74px 15px;
+}
+
+.Button{
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+.Button button {
+padding: 6px 12px;
+border: none;
+background: #f2f2f2;
+border-radius: 10px;
+cursor: pointer;
+font-size: 14px;
+color: black;
+white-space: nowrap;
+}
+
+.Button span{
+background-color: black;
+color: white;
+border-radius: 5px;
+padding: 7px 10px;
+font-size: 14px;
+font-family: Roboto, Arial, sans-serif;
+cursor:pointer;
+}
+
+.video-item {
+display: flex;
+gap: 10px;
+justify-content: flex-start; /* 👈 left */
+align-items: flex-start;
+padding: 8px;
+border-radius: 10px;
+margin-top: 10px;
+}
+
+.video-item img {
+width: 120px;
+height: 100px;
+border-radius: 8px;
+}
+
+.video-info{
+display: flex;
+flex-direction: column;
+}
+
+.title,
+.views,
+.channel{
+font-size: 12px;
+font-family: Roboto, Arial, sans-serif;
+line-height: 5px;
+}
+
+
